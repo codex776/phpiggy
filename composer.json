@@ -1,0 +1,19 @@
+{
+    "name": "brian/phpiggy",
+    "description": "A PHP Application for tracking expenses.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "codex776",
+            "email": "163724106+codex776@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Framework\\":"src/Framework",
+            "App\\":"src/App"
+        }
+    }
+}
+ 
